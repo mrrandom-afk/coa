@@ -1,7 +1,3 @@
-# ==============================================================================
-# Experiment No. 4
-# Title: Booth's Multiplication Algorithm for Signed Binary Multiplication
-# ==============================================================================
 
 def binary(num, bits):
     return format(num & ((1 << bits) - 1), f'0{bits}b')
