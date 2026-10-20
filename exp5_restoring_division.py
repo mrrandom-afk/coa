@@ -1,7 +1,3 @@
-# ==============================================================================
-# Experiment No. 5
-# Title: Restoring Division Algorithm for Binary Numbers
-# ==============================================================================
 
 A, Q, M = 0, int(input("Enter Dividend : ")), int(input("Enter Divisor : "))
 n = Count = max(Q.bit_length(), M.bit_length())
