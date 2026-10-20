@@ -1,8 +1,3 @@
-# ==============================================================================
-# Experiment No. 3
-# Title: IEEE 754 Floating Point Representation (Single Precision)
-# ==============================================================================
-
 number = float(input("Enter a decimal number: "))
 sign, number = (0, number) if number >= 0 else (1, -number)
 print("Sign Bit =", sign)
