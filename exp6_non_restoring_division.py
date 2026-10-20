@@ -1,8 +1,3 @@
-# ==============================================================================
-# Experiment No. 6
-# Title: Non-Restoring Division Algorithm for Binary Division
-# ==============================================================================
-
 def binary(num, bits):
     return format(num & ((1 << bits) - 1), f'0{bits}b')
 
