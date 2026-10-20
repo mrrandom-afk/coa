@@ -1,7 +1,3 @@
-# ==============================================================================
-# Experiment No. 8
-# Title: Analysis of Multilevel Memory Hierarchy
-# ==============================================================================
 
 def memory_hierarchy():
     n = int(input("Enter number of memory levels (2 or 3): "))
